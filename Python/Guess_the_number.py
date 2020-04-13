@@ -19,7 +19,7 @@ for zgadnij in range(1,7):
 if guess == secretNumber:
     print('Good job,' + name + '! you guessed my number in ' + str(zgadnij) + ' guesses.' )
 else:
-    print('Sorry, THe number I was thinking was '+ str(secretNumber))
+    print('Sorry, THe number I was thinking was ' + str(secretNumber))
 
 
 
