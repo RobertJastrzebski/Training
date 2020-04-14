@@ -25,6 +25,23 @@
 # a = False
 # print(b)
 
+
+
+# ***********************************del (kasuje odpowiedni indeks z listy) , remove (usuwa pierwsza wartosc z listy) sort() (sortuje liste)****************************************************
+# list= [1,2,3,4,5,5]
+# del list[3]
+# print(list)
+# list.remove(5)
+# print(list)
+# words = [ 'banan', 'arbuz','cukinia']
+# words.sort(reverse=True)
+# print(words)
+# print(sorted(words))
+# alfabet =['a','b','c','A','B','C']
+# alfabet.sort(key=str.lower)
+# print(alfabet)
+
+
 # **************** IF ELIF ELSE************************
 # place = 'w pracy'
 # if place == 'dom':
@@ -510,4 +527,6 @@
 #
 # # 6. Make a withdrawal that exceeds the available balance
 # acct1.withdraw(500)
+
+
 
