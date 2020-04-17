@@ -568,7 +568,24 @@
 # acct1.withdraw(500)
 
 
-# *************************************************  uruchomienie python poza IDLE **************************
-
-#! python3
-print('hello world')
+# ************************************************* regular expressions (re.compile, search, group -znajdzie tylko pierwszy)
+# ( (  )* moze wystawipic albo 0 albo wiele razy, ( )? moze wystapic ale nie musi,
+# ( )+ musi wystapic przynajmniej raz ,( ) { } tu definiujemy ile razy ma wystapic wyraznie
+# ^ znak przeciwstawny *****************************************************************************************************
+import re
+# do_analizy = "moj numer to  a mojej siostry (+48)666-456-191, (+48)666-456-192 "
+# do_analizy2= 'batman jedze do domu batmobile batman!!!!!!!!!!!!!!!!'
+#
+# numer_regex = re.compile(r'((\(\+\d\d\)(\d\d\d)-(\d\d\d)-(\d\d\d))(,)?)')
+# zmaczowany= numer_regex.search( do_analizy)
+# print(zmaczowany.group())
+#
+#
+# word_regex = re.compile(r'bat(man|mobile|copter)(!)*')
+# zmaczowany2 = word_regex.search(do_analizy2)
+# print(zmaczowany2.group())
+#
+#
+vowelRegex = re.compile(r'[^aeiouAEIOU]{1}')
+nowy3= vowelRegex.findall('Robocop eats baby food. baby food.')
+print(nowy3)
