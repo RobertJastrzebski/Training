@@ -27,7 +27,7 @@
 
 
 
-# ***********************************del (kasuje odpowiedni indeks z listy) , remove (usuwa pierwsza wartosc z listy) sort() (sortuje liste)****************************************************
+# ***********************************del (kasuje odpowiedni indeks z listy ale tylko pierwszy napotkany) , remove (usuwa pierwsza wartosc z listy) sort() (sortuje liste)****************************************************
 # list= [1,2,3,4,5,5]
 # del list[3]
 # print(list)
@@ -40,6 +40,45 @@
 # alfabet =['a','b','c','A','B','C']
 # alfabet.sort(key=str.lower)
 # print(alfabet)
+
+
+
+
+# ***************************setdefult dla dictionary(tworzy key value w słowniku)  oraz get (pobiera value ze słownika) , pprint (preety print moduł w python) , .join (łączy string) ********************************************************************
+# import pprint
+# hobby = {'hobby': 'zbieranie pocztówek', ' ilosc': 2345, 'rodzaje': 6}
+# print(hobby.get('cos','nie istnieje'))
+# print(hobby.get('rodzaje','nie istnieje'))
+# hobby.setdefault('patriotyczne','TX' )
+# pprint.pprint(hobby)
+#
+# print("".join(['ro','be','rt']))
+
+
+
+# *************************** medoty dla stringów isalpha() - ( tylko litery, isalnum()- (litery i liczby), isdecimal() - ( tylko cyfry), isspace() -(tylko spacja), istitle() (tylko sting z duza literą)
+# ***************************** .ljust , .rjust ,  .center ,  .strip() (usuwa spacje z obu stron), .lstrip() usuwa z lewej strony spacje , rstrip() usuwa z prawej strony spacje ***************************************************
+
+# litery= 'abcd'
+# litery_i_liczby= 'abc123'
+# liczby = '123'
+# spacja= '   '
+# duza_litera= 'Bob Jest Moim Bratem'
+#
+# print(litery.isalpha())
+# print(litery_i_liczby.isalnum())
+# print(liczby.isdecimal())
+# print(spacja.isspace())
+# print(duza_litera.istitle())
+#
+# print('hello'.ljust(20,' '))
+# print('hello'.rjust(20,' '))
+# print('hello'.center(20,' '))
+
+# print("'      x      '")
+# print("      x      ".strip())
+# print("      x      ".lstrip())
+# print("      x      ".rstrip())
 
 
 # **************** IF ELIF ELSE************************
@@ -529,4 +568,7 @@
 # acct1.withdraw(500)
 
 
+# *************************************************  uruchomienie python poza IDLE **************************
 
+#! python3
+print('hello world')
