@@ -1,3 +1,4 @@
+# ************************* String***********************************************************************************
 # a = 5.34
 #
 # mystring = 'abcdefghijklmnoprstuwz'
@@ -27,7 +28,7 @@
 
 
 
-# ***********************************del (kasuje odpowiedni indeks z listy ale tylko pierwszy napotkany) , remove (usuwa pierwsza wartosc z listy) sort() (sortuje liste)****************************************************
+# ***********************************del (kasuje odpowiedni indeks z listy ale tylko pierwszy napotkany) , remove (usuwa pierwsza wartosc z listy),  sort() (sortuje liste)****************************************************
 # list= [1,2,3,4,5,5]
 # del list[3]
 # print(list)
@@ -41,10 +42,27 @@
 # alfabet.sort(key=str.lower)
 # print(alfabet)
 
+# *************************************** dictionary- , XXXXX.update({   }) mozemy zaktualizować słownik.
+# słownik= {
+#     'warzywa' : 'bataty',
+#      'owoce' : 'pomarańcze'
+#
+# }
+#
+# słownik.update({
+#     'orzechy': 'nerkowce'
+#     })
+# print(słownik)
 
 
 
-# ***************************setdefult dla dictionary(tworzy key value w słowniku)  oraz get (pobiera value ze słownika) , pprint (preety print moduł w python) , .join (łączy string oraz liste) ********************************************************************
+# ********************************* lambda - funckja anonimowa  (lambda arg : wyrazenie) **********************************************************************
+
+# do_potegi_2 = lambda a: a**2
+# print(do_potegi_2(2))
+
+
+# *************************** setdefult dla dictionary(tworzy key value w słowniku)  oraz get (pobiera value ze słownika) , pprint (preety print moduł w python) , .join (łączy string oraz liste) ********************************************************************
 # import pprint
 # hobby = {'hobby': 'zbieranie pocztówek', ' ilosc': 2345, 'rodzaje': 6}
 # print(hobby.get('cos','nie istnieje'))
@@ -100,7 +118,7 @@
 #     print(lista)
 
 
-# lista z tuple**********
+# lista z tuple**************************************************************
 # moja_lista = [(1,2,3,4),(2,3,5,6),(5,2,4,5)]
 # for a,b,c,d in moja_lista:
 #     print(d)
@@ -336,7 +354,22 @@
 # print(animal_crackers('Levelheaded Llama'))
 # print(animal_crackers('Crazy Kangaroo'))
 
-
+# ***************************************** if not - jezeli fałsz ***************************************
+# a=0
+# b=1
+# if not a:
+#     print('fałsz')
+# else:
+#     print('prawda')
+#
+# a = 0
+# b = 1
+# if  a:
+#     print('prawda')
+# else:
+#     print('fałsz')
+#
+#
 
 # Given two integers, return True if the sum of the integers is 20 or
 # if one of the integers is 20. If not, return False
