@@ -5,7 +5,7 @@
 # print(mystring[::-1])
 #
 # print('To jest imie {}'.format("Roberta" + ' i Seby'))
-
+#
 # r = 12.232141
 # print("the result was { r:1.3f } ".format(r))
 #
@@ -25,7 +25,7 @@
 # b = True
 # a = False
 # print(b)
-
+#
 
 
 # ***********************************del (kasuje odpowiedni indeks z listy ale tylko pierwszy napotkany) , remove (usuwa pierwsza wartosc z listy),  sort() (sortuje liste)****************************************************
@@ -545,7 +545,7 @@
 # print(palindrome('helleh'))
 # print(palindrome('abcba'))
 
-# ********************************************************************************Object Oriented Programming Challenge**************************************************************************
+# ******************************************************************************** klasy - Object Oriented Programming Challenge**************************************************************************
 # For this challenge, create a bank account class that has two attributes:
 #
 # * owner
