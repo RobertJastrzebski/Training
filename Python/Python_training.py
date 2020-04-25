@@ -642,3 +642,25 @@
 # print(names)
 # tajne=namesregex.sub(r'Tajne \1****','Agent Bob gave the secret documents to Agent Tom')
 # print(tajne)
+
+
+# ************************************ assert ************************************************
+# # Example 1
+# def add_positive_numbers(x, y):
+#     assert x > 0 and y > 0, "Both numbers must be positive!"
+#     return x + y
+#
+# print(add_positive_numbers(1, 1)) # 2
+# add_positive_numbers(1, -1) # AssertionError: Both numbers must be positive!
+#
+# Example 2
+
+# def junk_food (food):
+#     assert food in ['pizza','hamburger','sweets', 'candy', 'chips', ],"it must be junk food"
+#     return f"I am eating {food}"
+#
+# food = input("Please enter you junk food: ")
+# print(junk_food(food))
+
+
+# **********************************************
