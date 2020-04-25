@@ -663,4 +663,14 @@
 # print(junk_food(food))
 
 
-# **********************************************
+# ********************************************** daytime module, nowy plik + edycja ********************************
+# from datetime import datetime
+# days = print(datetime.now()-datetime(1983,12,25))
+# teraz = datetime.now()
+
+# tworzy nowy plik
+# with open("nowy_dokument.txt","w") as plik:
+#     plik.write("stworzyłem nowy pilk huraaaa")
+
+
+# *********************************************************************************************************************
