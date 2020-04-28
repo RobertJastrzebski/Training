@@ -4,8 +4,8 @@
 # mystring = 'abcdefghijklmnoprstuwz'
 # print(mystring[::-1])
 #
-# print('To jest imie {}'.format("Roberta" + ' i Seby'))
-#
+# print('To jest imie {} i Seby'.format("Roberta" ))
+
 # r = 12.232141
 # print("the result was { r:1.3f } ".format(r))
 #
@@ -605,44 +605,44 @@
 # ( (  )* moze wystawipic albo 0 albo wiele razy, ( )? moze wystapic ale nie musi,
 # ( )+ musi wystapic przynajmniej raz ,( ) { } tu definiujemy ile razy ma wystapic wyraznie
 # ^ znak przeciwstawny, .sub zamienia wertosci znalezione , | albo   , \! \( \ + zna *****************************************************************************************************
-import re
-do_analizy = r'moj numer to  a mojej siostry (+48)666-456-191, (+48)666-456-192, 666-456-192, '
-do_analizy2= 'batman jedze do domu batmobile batman!!!!!!!!!!!!!!!!'
-
-numer_regex = re.compile(r'''
-((\(\+\d\d\))?    #prefix opcjonalny
-\d\d\d          #pierwsze 3 liczby
--               #
-\d\d\d          # kolejne 3 liczby
--               #
-\d\d\d(,)?)     # ostatnie 3 liczby  z opcjonalnym,
-''',re.VERBOSE)
-zmaczowany= numer_regex.findall( do_analizy)
-# "'".join(zmaczowany)
-telefony= []
-
-for phonenumer in zmaczowany:
-    telefony.append(phonenumer[0])
-print(telefony)
-lista_telefonów='\n'.join(telefony)
-print(lista_telefonów)
-
-
-
-word_regex = re.compile(r'bat(man|mobile|copter)(!)*')
-zmaczowany2 = word_regex.search(do_analizy2)
-print(zmaczowany2.group())
-
-
-vowelRegex = re.compile(r'[^aeiouAEIOU]{1}')
-nowy3= vowelRegex.findall('Robocop eats baby food. baby food.')
-print(nowy3)
-namesregex =re.compile(r'Agent (\w)\w+')
-names=namesregex.findall('Agent Bob gave the secret documents to Agent Tom')
-print(names)
-tajne=namesregex.sub(r'Tajne \1****','Agent Bob gave the secret documents to Agent Tom')
-print(tajne)
-
+# import re
+# do_analizy = r'moj numer to  a mojej siostry (+48)666-456-191, (+48)666-456-192, 666-456-192, '
+# do_analizy2= 'batman jedze do domu batmobile batman!!!!!!!!!!!!!!!!'
+#
+# numer_regex = re.compile(r'''
+# ((\(\+\d\d\))?    #prefix opcjonalny
+# \d\d\d          #pierwsze 3 liczby
+# -               #
+# \d\d\d          # kolejne 3 liczby
+# -               #
+# \d\d\d(,)?)     # ostatnie 3 liczby  z opcjonalnym,
+# ''',re.VERBOSE)
+# zmaczowany= numer_regex.findall( do_analizy)
+# # "'".join(zmaczowany)
+# telefony= []
+#
+# for phonenumer in zmaczowany:
+#     telefony.append(phonenumer[0])
+# print(telefony)
+# lista_telefonów='\n'.join(telefony)
+# print(lista_telefonów)
+#
+#
+#
+# word_regex = re.compile(r'bat(man|mobile|copter)(!)*')
+# zmaczowany2 = word_regex.search(do_analizy2)
+# print(zmaczowany2.group())
+#
+#
+# vowelRegex = re.compile(r'[^aeiouAEIOU]{1}')
+# nowy3= vowelRegex.findall('Robocop eats baby food. baby food.')
+# print(nowy3)
+# namesregex =re.compile(r'Agent (\w)\w+')
+# names=namesregex.findall('Agent Bob gave the secret documents to Agent Tom')
+# print(names)
+# tajne=namesregex.sub(r'Tajne \1****','Agent Bob gave the secret documents to Agent Tom')
+# print(tajne)
+#
 
 # ************************************ assert ************************************************
 # # Example 1
