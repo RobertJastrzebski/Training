@@ -114,11 +114,11 @@ result= res['results']
 
 number_of_jokes= res['total_jokes']
 if number_of_jokes > 1:
-    print('Jest wiecej niz jeden kawal')
+    print('Jest wiecej niz jeden kawal oto jeden z nich:')
     print(choice(result)['joke'])
 elif number_of_jokes == 1:
     print('Jest jedne kawal:')
     print(result[0]['joke'])
 else:
     print('brak kawalow do tego slowa')
-************************************************************************************************************************
+# ************************************************************************************************************************
