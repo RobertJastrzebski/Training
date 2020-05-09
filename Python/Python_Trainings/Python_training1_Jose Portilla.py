@@ -418,7 +418,7 @@
 # def reversed (text):
 #     wordList = text.split()
 #     wordList_reverserd = wordList[::-1]
-#     result= "".join(wordList_reverserd)
+#     result= " ".join(wordList_reverserd)
 #     return result
 # print(reversed('I am home'))
 # print(reversed('We are ready'))
