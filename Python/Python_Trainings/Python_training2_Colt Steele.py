@@ -101,24 +101,72 @@
 # print(answer)
 #
 # ********************************************http requests  with python ***********************************************
-import requests
-from random import choice
-url = 'http://icanhazdadjoke.com/search'
-word= input("podaj slowo po angielsku: ")
-res= requests.get(
-    url,
-    headers={"Accept":"application/json" },
-    params={"term":word}
-).json()
-result= res['results']
+# import requests
+# from random import choice
+# url = 'http://icanhazdadjoke.com/search'
+# word= input("podaj slowo po angielsku: ")
+# res= requests.get(
+#     url,
+#     headers={"Accept":"application/json" },
+#     params={"term":word}
+# ).json()
+# result= res['results']
+#
+# number_of_jokes= res['total_jokes']
+# if number_of_jokes > 1:
+#     print('Jest wiecej niz jeden kawal oto jeden z nich:')
+#     print(choice(result)['joke'])
+# elif number_of_jokes == 1:
+#     print('Jest jedne kawal:')
+#     print(result[0]['joke'])
+# else:
+#     print('brak kawalow do tego slowa')
+# *************************************object orienting programming ******************************************************************
 
-number_of_jokes= res['total_jokes']
-if number_of_jokes > 1:
-    print('Jest wiecej niz jeden kawal oto jeden z nich:')
-    print(choice(result)['joke'])
-elif number_of_jokes == 1:
-    print('Jest jedne kawal:')
-    print(result[0]['joke'])
-else:
-    print('brak kawalow do tego slowa')
+# Define Bank Account Below:
+# class BankAccount:
+#
+#     def __init__(self, name):
+#         self.owner = name
+#         self.balance = 0.0
+#
+#     def balance(self):
+#         return self.balance
+#
+#     def deposit(self, amount):
+#         self.balance += amount
+#         return self.balance
+#
+#     def withdraw(self, amount):
+#         self.balance -= amount
+#         return self.balance
+#
+# run = BankAccount("Arnie")
+# print(run.balance)
+# run.deposit(30)
+# run.withdraw(20)
+# print(run.balance)
+
+# ***********************************write, read files and create new file with ,as function in python *****************
+
+# my_list =[1,2,3,0,]
+# my_file= open("first.txt","w")
+# for item in my_list:
+#     my_file.write(str(item))
+# my_file.close()
+
+
+# my_file2=open("first.txt",'r')
+# print(my_file2.read())
+# my_file2.close()
+
+
+# tworzy nowy plik
+# with open("nowy_dokument.txt","w") as plik:
+#     plik.write("stworzylem nowy pilk huraaaa")
+# # odczytuje zawartosc.
+# with open("nowy_dokument.txt","r") as plik:
+#     print(plik.read())
+
+
 # ************************************************************************************************************************
