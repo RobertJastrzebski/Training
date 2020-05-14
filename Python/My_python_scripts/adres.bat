@@ -1,3 +1,3 @@
-@py "E:\1. Tester manualny\Gitgub Repository\Python\My_python_scripts\adres.py" %*
+@py.exe "E:\2. Tester manualny\Gitgub Repository\Python\My_python_scripts\adres.py" %*
 @pause
 

@@ -6,12 +6,12 @@ historia=[]
 historia.append(sys.argv[1])
     #sprawdz czy adres został wpisany
 if len(sys.argv)>1:
-    adress = ' '.join(sys.argv[1:])
-    print(adress)
+    adres = ' '.join(sys.argv[1:])
+    print(adres)
 else:
-    adress = pyperclip.paste()
+    adres = pyperclip.paste()
 
-webbrowser.open('https://www.google.pl/maps/place/'+adress)
+webbrowser.open('https://www.google.pl/maps/place/'+adres)
 print(historia)
 
 
