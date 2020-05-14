@@ -10,10 +10,9 @@ class Chrome():
     def test(self):
 
         url = "https://letskodeit.teachable.com/pages/practice"
-        # driverlocation = "E:\\2. Tester manualny\\Gitgub Repository\\Python\\Selenium\\Chromedriver.exe"
-
         os.environ["webdriver.chrome.driver"] = executable_path="C:\\Selenium\\chromedriver.exe"
         driver = webdriver.Chrome(executable_path="C:\\Selenium\\chromedriver.exe")
+
         driver.maximize_window()
         driver.get(url)
         driver.implicitly_wait(5)
@@ -67,10 +66,21 @@ class Chrome():
         if elementsByClass is not None:
             length=len(elementsByClass)
             print(f"elements by class is  {length}")
-        driver.quit()
+        # ***************************************************************************************
+
+        click_and_send_keys= driver.get('https://learn.letskodeit.com/')
+        login= driver.find_element(By.XPATH,"//a[@class='navbar-link fedora-navbar-link']")
+        login.click()
+        email=driver.find_element(By.ID,'user_email')
+        email.send_keys("test")
+        password=driver.find_element(By.ID,'user_password')
+        password.send_keys("test")
+        time.sleep(4)
+        password.clear()
+        time.sleep(4)
+
+
 
 chrome = Chrome()
-
-
 
 chrome.test()
