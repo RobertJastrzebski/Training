@@ -4,6 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
@@ -97,10 +98,10 @@ class Chrome:
 #         result = element.get_attribute("type")
 #         print(result)
 #         driver.quit()
-# **********************************************************************************************************************
-    driver.execute_script
-
-
+# ********************************************window scroll*************************************************************
+#         driver.execute_script("window.scrollBY(0,600);")
+#
+# ************************************************************************************************************************
 chrome = Chrome()
 
 chrome.test()
