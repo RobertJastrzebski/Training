@@ -1,5 +1,5 @@
 from selenium import webdriver
-import os
+# import os
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -14,7 +14,7 @@ class Chrome:
     def test(self):
 
         url = "https://letskodeit.teachable.com/pages/practice"
-        os.environ["webdriver.chrome.driver"] = executable_path="C:\\Selenium\\chromedriver.exe"
+        # os.environ["webdriver.chrome.driver"] = executable_path="C:\\Selenium\\chromedriver.exe"
         driver = webdriver.Chrome(executable_path="C:\\Selenium\\chromedriver.exe")
         driver.maximize_window()
 
@@ -87,20 +87,20 @@ class Chrome:
         # password.clear()
         # time.sleep(4)
 # *****************************************.text zwraca tekst obiektu***************************************************
-#
-#         page= driver.get('https://learn.letskodeit.com/p/practice')
-#         opentab = driver.find_element(By.ID,"opentab")
-#         text = opentab.text
-#         print(text)
+
+        # page= driver.get('https://learn.letskodeit.com/p/practice')
+        # opentab = driver.find_element(By.ID,"opentab")
+        # text = opentab.text
+        # print(text)
 # *****************************************.get_attribute(wpisujemy atrybut )*******************************************
-#         page= driver.get('https://learn.letskodeit.com/p/practice')
-#         element = driver.find_element(By.ID,"name")
-#         result = element.get_attribute("type")
-#         print(result)
-#         driver.quit()
+        # page= driver.get('https://learn.letskodeit.com/p/practice')
+        # element = driver.find_element(By.ID,"name")
+        # result = element.get_attribute("type")
+        # print(result)
+        # driver.quit()
 # ********************************************window scroll*************************************************************
 #         driver.execute_script("window.scrollBY(0,600);")
-#
+
 # ************************************************************************************************************************
 chrome = Chrome()
 
