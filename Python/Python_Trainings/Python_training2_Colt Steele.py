@@ -161,12 +161,37 @@
 # my_file2.close()
 
 
-# tworzy nowy plik
+# # tworzy nowy plik
 # with open("nowy_dokument.txt","w") as plik:
-#     plik.write("stworzylem nowy pilk huraaaa")
+#     plik.write("stworzylem nowy pilk !!!")
 # # odczytuje zawartosc.
 # with open("nowy_dokument.txt","r") as plik:
 #     print(plik.read())
+#
 
+# ******************************************** OOP *********************************************************************
+# class Character:
+#     def __init__(self, name, hp, level):
+#         self.name = name
+#         self.hp = hp
+#         self.level = level
+#
+#
+# class NPC(Character):
+#     def __init__(self, name, hp, level):
+#         super().__init__(name, hp, level)
+#
+#     def speak(self):
+#         """zwraca zdanie"""
+#         return f"{self.name}I hear there were monsters running around last night"
+#
+#
+# villager= NPC("Rob",100,12)
+# print(villager.name)
+# print(villager.hp)
+# print(villager.level)
+# print(villager.speak())
+# print(NPC.speak.__name__)
+# print(NPC.speak.__doc__)
 
-# ************************************************************************************************************************
+# **********************************************************************************************************************
