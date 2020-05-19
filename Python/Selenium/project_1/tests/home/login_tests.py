@@ -21,7 +21,8 @@ class LoginTests(unittest.TestCase):
     def test_invalid_login(self):
         self.driver.get(self.baseUrl)
         self.lp.login("tes2343234t@email.com", 'abcabc')
-        self.lp.verifyLoginFail()
+        result=self.lp.verifyLoginFail()
+        assert result == True
 
 
 if __name__ == '__main__':
