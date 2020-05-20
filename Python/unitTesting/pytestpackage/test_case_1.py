@@ -2,10 +2,12 @@ import pytest
 
 @pytest.fixture()
 def setUp():
-    print("Running demo1 setUp")
+    print("\nRunning test_case_1")
+    yield
+    print(("\nend"))
 
-def test_demo1_methodA(setUp):
-    print("Running demo1 method A")
+def test_1(setUp):
+    print("Running  test1")
 
-def test_demo1_methodB(setUp):
-    print("Running demo1 method B")
+def test_2(setUp):
+    print("Running  test2")
