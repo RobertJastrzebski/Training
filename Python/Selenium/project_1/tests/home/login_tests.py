@@ -23,7 +23,7 @@ class LoginTests(unittest.TestCase):
         self.lp.login("tes2343234t@email.com", 'abcabc')
         result=self.lp.verifyLoginFail()
         assert result == True
-
+    time.sleep(4)
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

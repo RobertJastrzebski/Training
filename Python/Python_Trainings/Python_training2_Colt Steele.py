@@ -170,28 +170,28 @@
 #
 
 # ******************************************** OOP *********************************************************************
-# class Character:
-#     def __init__(self, name, hp, level):
-#         self.name = name
-#         self.hp = hp
-#         self.level = level
+class Character:
+    def __init__(self, name, hp, level):
+        self.name = name
+        self.hp = hp
+        self.level = level
 #
 #
-# class NPC(Character):
-#     def __init__(self, name, hp, level):
-#         super().__init__(name, hp, level)
-#
-#     def speak(self):
-#         """zwraca zdanie"""
-#         return f"{self.name}I hear there were monsters running around last night"
-#
-#
-# villager= NPC("Rob",100,12)
-# print(villager.name)
-# print(villager.hp)
-# print(villager.level)
-# print(villager.speak())
-# print(NPC.speak.__name__)
-# print(NPC.speak.__doc__)
+class NPC(Character):
+    def __init__(self, name, hp, level):
+        super().__init__(name, hp, level)
+
+    def speak(self):
+        """zwraca zdanie"""
+        return f"{self.name}I hear there were monsters running around last night"
+
+
+villager= NPC("Rob",100,12)
+print(villager.name)
+print(villager.hp)
+print(villager.level)
+print(villager.speak())
+print(NPC.speak.__name__)
+print(NPC.speak.__doc__)
 
 # **********************************************************************************************************************

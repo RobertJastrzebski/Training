@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+from Selenium.project_1.screenshots.screenshots import ScreenShot
 class LoginPage():
 
     def __init__(self,driver):
@@ -46,6 +46,7 @@ class LoginPage():
     def verifyLoginSucc(self):
         self.driver.find_element(By.CSS_SELECTOR, ".gravatar").click()
         logOut = self.driver.find_element(By.XPATH, self._logOut_text)
+        ScreenShot.screenShot()
         if logOut is not None:
             return True
         False
@@ -60,6 +61,7 @@ class LoginPage():
 
     def verifyLoginFail(self):
         result = self.driver.find_element(By.XPATH,self._invalid_text)
+        ScreenShot.screenShot()
         if result is not None:
             return True
         False
