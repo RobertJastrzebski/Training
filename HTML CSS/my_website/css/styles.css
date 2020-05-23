@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+
+  font-family: 'Lato', sans-serif;
+  }
+h1{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  height: 1 px;
+
+
+  margin: 50px auto;
+}
+
+
+}
+h2{
+  font-size: 40px;
+  }
+
+p{
+  font-size: 20px;
+}
+h3{
+  font-size: 25px;
+}
+
+
+
+.top-container{
+  background-color: #e5e5e5;
+  position: relative;
+  text-align: center;
+
+  margin: auto;
+
+
+}
+.middle-container{
+text-align: center;
+position: relative;
+margin-top: 0px;
+margin-bottom: 100px;
+line-height: 2;
+background-color: white;
+}
+
+.bottom-container{
+  text-align: center;
+  position: relative;
+
+  background-color: #e5e5e5;
+}
+.zawod{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin-top: 5px;
+
+}
+
+
+
+.testing-photo{
+  width: 25%;
+  margin: 100px auto auto;
+
+}
+#my-photo{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 8%;
+
+}
+
+.skills-png{
+  position:absolute;
+  right: 500px;
+}
+.EDUCATION{
+  width: 50%;
+  margin: auto;
+}
+.github{
+  text-align: center;
+
+  margin: auto;
+}
+.github-picture{
+  width: 20%
+}
+
+
+.contact-me{
+  margin-bottom: 20px;
+}
+
+.btn {
+	background-color:#4585e6;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#e4f2ec;
+	font-family:Arial Black;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 23px #2f6627;
+}.classname:hover {
+	background-color:#5cbf2a;
+}.classname:active {
+	position:relative;
+	top:1px;
