@@ -605,7 +605,7 @@
 # ( (  )* moze wystawipic albo 0 albo wiele razy, ( )? moze wystapic ale nie musi,
 # ( )+ musi wystapic przynajmniej raz ,( ) { } tu definiujemy ile razy ma wystapic wyraznie
 # ^ znak przeciwstawny, .sub zamienia wertosci znalezione , | albo   , \! \( \ + zna *****************************************************************************************************
-# import re
+import re
 # do_analizy = r'moj numer to  a mojej siostry (+48)666-456-191, (+48)666-456-192, 666-456-192, '
 # do_analizy2= 'batman jedze do domu batmobile batman!!!!!!!!!!!!!!!!'
 #
@@ -643,6 +643,17 @@
 # tajne=namesregex.sub(r'Tajne \1****','Agent Bob gave the secret documents to Agent Tom')
 # print(tajne)
 #
+patterns = ['term1','term2']
+text = 'This is a string with term1, not not the other!'
+for pattern in patterns:
+    
+
+
+
+
+
+
+
 
 # ************************************ assert ************************************************
 # # Example 1
