@@ -188,67 +188,68 @@ Switch stetment
 
 
 // Object and methods.*****************************************
-/* var john = {
-    firstName: 'John',
-    mass: 98,
-    height: 190,
-    lastName: 'Smith',
-    birthYear: 1983,
-    family: ['Jane', 'Mark', 'Bob', 'Emily'],
-    job: 'teacher',
-    isMarried: false,
-    calcAge: function(){
-        this.age = 2020 - this.birthYear;
+// /* var john = {
+//     firstName: 'John',
+//     mass: 98,
+//     height: 190,
+//     lastName: 'Smith',
+//     birthYear: 1983,
+//     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher',
+//     isMarried: false,
+//     calcAge: function(){
+//         this.age = 2020 - this.birthYear;
    
 
 
-    }
+//     }
     
-};
-john.calcAge();
-console.log(john); */
+// };
+// john.calcAge();
+// console.log(john); */
 
-/* // Zadanie 2 porownanie BMI pomiedzy 2 obiektami.******************
-var john = {
-    fullName: 'John Smith',
-    mass: 92,
-    height: 1.95,
-    calcBMI: function(){
-        this.BMI = this.mass /this.height**2;
-        return this.BMI;
-    }
-}
+// /* // Zadanie 2 porownanie BMI pomiedzy 2 obiektami.******************
+// var john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function(){
+//         this.BMI = this.mass /this.height**2;
+//         return this.BMI;
+//     }
+// }
 
-var mark = {
-    fullName: 'Mark Miller',
-    mass: 78,
-    height: 1.69,
-    calcBMI: function() {
-        this.BMI = this.mass / (this.height * this.height);
-        return this.BMI;
-    }
-}
+// var mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function() {
+//         this.BMI = this.mass / (this.height * this.height);
+//         return this.BMI;
+//     }
+// }
 
 
-if (john.calcBMI() > mark.calcBMI()) {
-    console.log(john.fullName + ' has a higher BMi of ' + john.BMI);
-} else if (mark.BMI> john.BMI) {
-    console.log(mark.fullName + ' has a higher BMI of ' + mark.BMI); 
-} else {
-     console.log('They have the same BMI');
-}
+// if (john.calcBMI() > mark.calcBMI()) {
+//     console.log(john.fullName + ' has a higher BMi of ' + john.BMI);
+// } else if (mark.BMI> john.BMI) {
+//     console.log(mark.fullName + ' has a higher BMI of ' + mark.BMI); 
+// } else {
+//      console.log('They have the same BMI');
+// }
     
 
-john.calcBMI();
-mark.calcBMI();
-console.log(john.BMI, mark.BMI) */
+// john.calcBMI();
+// mark.calcBMI();
+// console.log(john.BMI, mark.BMI) */
 
-// Loops***************************
+// // Loops***************************
 
 
-var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+// var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
 
-for (var i = 0; i < john.length; i++ ) {
-    console.log(john[i]);
-}
+// for (var i = 0; i < john.length; i++ ) {
+//     console.log(john[i]);
+// }
+
 
