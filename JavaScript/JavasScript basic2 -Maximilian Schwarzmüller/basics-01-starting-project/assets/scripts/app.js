@@ -8,28 +8,28 @@ function getUserNumberInput() {
 function add() {
   const enteredNum = getUserNumberInput();
   const opis = `${wynik} + ${enteredNum}`;
-  wynik = wynik + enteredNum;
+  wynik += enteredNum;
   outputResult(wynik, opis);
 }
 
 function subtract() {
   const enteredNum = getUserNumberInput();
   const opis = `${wynik} - ${enteredNum}`;
-  wynik = wynik - enteredNum;
+  wynik -= enteredNum;
   outputResult(wynik, opis);
 }
 
 function multiply() {
   const enteredNum = getUserNumberInput();
   const opis = `${wynik} * ${enteredNum}`;
-  wynik = wynik * enteredNum;
+  wynik *= enteredNum;
   outputResult(wynik, opis);
 }
 
 function divide() {
   const enteredNum = getUserNumberInput();
   const opis = `${wynik} / ${enteredNum}`;
-  wynik = wynik / enteredNum;
+  wynik /= enteredNum;
   outputResult(wynik, opis);
 }
 addBtn.addEventListener("click", add);
