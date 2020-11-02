@@ -22,32 +22,47 @@ namespace ConsoleApp1
 
             //Arrays------------------------------
 
-           //var numbers = new int[3];
-           // numbers[0] = 1;
-           // numbers[1] = 22;
-           // numbers[2] = 33;
+            //var numbers = new int[3];
+            // numbers[0] = 1;
+            // numbers[1] = 22;
+            // numbers[2] = 33;
 
-           // System.Console.WriteLine(numbers[0]);
-           // System.Console.WriteLine(numbers[1]);
-           // System.Console.WriteLine(numbers[2]);
+            // System.Console.WriteLine(numbers[0]);
+            // System.Console.WriteLine(numbers[1]);
+            // System.Console.WriteLine(numbers[2]);
 
 
-           // var flags = new bool[3];
-           // flags[0] = true;
-           // System.Console.WriteLine(flags[0]);
-           // System.Console.WriteLine(flags[1]);
-           // System.Console.WriteLine(flags[2]);
+            // var flags = new bool[3];
+            // flags[0] = true;
+            // System.Console.WriteLine(flags[0]);
+            // System.Console.WriteLine(flags[1]);
+            // System.Console.WriteLine(flags[2]);
 
-           // var names = new string[3] { "jack", "john", "Mary" };
-           // System.Console.WriteLine(names[0]);
-           // System.Console.WriteLine(names[1]);
-           // System.Console.WriteLine(names[2]);
+            // var names = new string[3] { "jack", "john", "Mary" };
+            // System.Console.WriteLine(names[0]);
+            // System.Console.WriteLine(names[1]);
+            // System.Console.WriteLine(names[2]);
 
             //Strings-----------------------------------------
 
+             
+
+        //    var firstName = "Mosh";
+        //    var lastName = "nowak";
+        //    var fullName = firstName + " " + lastName;
+        //    System.Console.WriteLine(fullName);
+
+        //    string str = "rob";
+        //    string strFormat = string.Format("my nam is {0}  {1}", str, 2);
+        //    System.Console.WriteLine(strFormat);
+
+        //    var names = new string[3] { "john", "jack", "Mary" };
+        //    var formattedNames = string.Join(",", names);
+        //    System.Console.WriteLine(formattedNames);
 
 
-        }
+            
+        //}
 
 
     }
