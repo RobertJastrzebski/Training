@@ -1,0 +1,13 @@
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.exe
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.deps.json
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.runtimeconfig.json
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.runtimeconfig.dev.json
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.dll
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\bin\Debug\netcoreapp3.1\arrays and lists.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.AssemblyInfoInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.AssemblyInfo.cs
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.dll
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\arrays and lists\obj\Debug\netcoreapp3.1\arrays and lists.genruntimeconfig.cache
