@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1.csproj", "{986CB377-6D41-430F-A1EB-3622F4739597}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "control_flow", "..\control_flow\control_flow.csproj", "{C903C87D-1C25-4276-8323-EB544A188AA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "control_flow", "..\control_flow\control_flow.csproj", "{C903C87D-1C25-4276-8323-EB544A188AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays and lists", "..\arrays and lists\arrays and lists.csproj", "{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays and lists", "..\arrays and lists\arrays and lists.csproj", "{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datetime", "..\datetime\datetime.csproj", "{CDD1906E-7BB5-461B-ABDA-5657582703AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace arrays_and_lists
 {
@@ -44,11 +45,35 @@ namespace arrays_and_lists
             //    Console.WriteLine(item);
             //}
 
+            // lists -------------------------------------------
+            //var num = new List<int>() { 1, 2, 3, 4 };
+            //num.Add(1);
+            //num.AddRange(new int[3] { 4, 6, 7 });
+
+            //foreach (var item in num)
+
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.WriteLine("wynik:");
+            //Console.WriteLine(num.IndexOf(2));
+            //Console.WriteLine(num.LastIndexOf(1));
+            //Console.WriteLine(num.Count);
+            //num.Remove(1);
+
+            //Console.WriteLine("nowa lista");
+
+            //foreach (var item in num)
+
+            //{
+            //    Console.WriteLine(item);
+            //} 
 
 
 
+        }   
 
-        }
 
 
 
