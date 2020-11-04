@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "control_flow", "..\control_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays and lists", "..\arrays and lists\arrays and lists.csproj", "{4752FF37-18FE-4F29-80E1-BAEC04C2EA28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datetime", "..\datetime\datetime.csproj", "{CDD1906E-7BB5-461B-ABDA-5657582703AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "datetime", "..\datetime\datetime.csproj", "{CDD1906E-7BB5-461B-ABDA-5657582703AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "..\Strings\Strings.csproj", "{AFC62F7E-8E05-4863-A4A4-0051024B7E10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C203FD5-F0DD-41D4-992A-E65CFD5E1BA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD1906E-7BB5-461B-ABDA-5657582703AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC62F7E-8E05-4863-A4A4-0051024B7E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC62F7E-8E05-4863-A4A4-0051024B7E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC62F7E-8E05-4863-A4A4-0051024B7E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC62F7E-8E05-4863-A4A4-0051024B7E10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
