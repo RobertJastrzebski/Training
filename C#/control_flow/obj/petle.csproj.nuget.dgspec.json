@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\control_flow.csproj": {}
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj": {}
   },
   "projects": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\control_flow.csproj": {
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\control_flow.csproj",
+        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj",
         "projectName": "petle",
-        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\control_flow.csproj",
+        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj",
         "packagesPath": "C:\\Users\\Robert.000\\.nuget\\packages\\",
         "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 
 namespace Strings
 {
@@ -55,6 +57,20 @@ namespace Strings
             var sentence = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,";
             var result = narzedzieStringow.Sumarize(sentence, 20);
             Console.WriteLine(result);
+
+            //StringBuilder ---------------------------------------
+
+            var builder = new StringBuilder("Hello World");
+            builder.Append('-', 10);
+            builder.AppendLine();
+            builder.AppendLine();
+            builder.Append('-',10);
+            builder.AppendLine();
+            builder.Replace('-', '+');
+            builder.Insert(15, new string('-', 10));
+            Console.WriteLine(builder);
+
+
         }
 
         
