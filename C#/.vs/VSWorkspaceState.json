@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConsoleApp1"
+    "\\control_flow",
+    "\\Strings"
   ],
+  "SelectedNode": "\\control_flow\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,4 @@
+E:\2. Tester manualny\Gitgub Repository\C#\control_flow\obj\Debug\netcoreapp3.1\petle.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\control_flow\obj\Debug\netcoreapp3.1\petle.AssemblyInfoInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\control_flow\obj\Debug\netcoreapp3.1\petle.AssemblyInfo.cs
+E:\2. Tester manualny\Gitgub Repository\C#\control_flow\obj\Debug\netcoreapp3.1\petle.csproj.CoreCompileInputs.cache

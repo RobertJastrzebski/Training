@@ -20,7 +20,7 @@ namespace Strings
             Console.WriteLine("Trim: '{0}'", myName.Trim());
             Console.WriteLine("Toupper: '{0}'", myName.ToUpper());
             Console.WriteLine("Tolower: '{0}'", myName.ToLower());
-            
+
 
             var index = myName.IndexOf(' ');
             var firstName = myName.Substring(0, index);
@@ -41,20 +41,21 @@ namespace Strings
 
             //string to number Convert method. 
             var str = "25";
-            var age=  Convert.ToByte(str);
+            var age = Convert.ToByte(str);
             Console.WriteLine(age);
 
             //numer to string - ToString()
             var ver2 = age.ToString();
             Console.WriteLine(ver2);
 
-            float price= 19.99f;
+            float price = 19.99f;
             var priceString = price.ToString("C0");
             Console.WriteLine(priceString);
 
             // coding summarasing-------------------------------------------------------------------------------------------------------
 
-            var sentence = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,";
+            var sentence =
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,";
             var result = narzedzieStringow.Sumarize(sentence, 20);
             Console.WriteLine(result);
 
@@ -64,16 +65,17 @@ namespace Strings
             builder.Append('-', 10);
             builder.AppendLine();
             builder.AppendLine();
-            builder.Append('-',10);
+            builder.Append('-', 10);
             builder.AppendLine();
             builder.Replace('-', '+');
             builder.Insert(15, new string('-', 10));
             Console.WriteLine(builder);
 
 
+
+
+
+
         }
-
-        
-
     }
 }
