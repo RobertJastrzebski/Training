@@ -31,21 +31,21 @@ namespace control_flow
             //}
 
             //if else if -----------------------------------------------------
-            //int hour = 15;
+            int hour = 15;
 
-            //if (hour > 0 && hour < 12)
-            //{
-            //    Console.WriteLine("it is morning");
-            //}
-            //else if (hour >= 12 && hour < 18)
-            //{
-            //    Console.WriteLine("it is afternoon");
-            //}
+            if (hour > 0 && hour < 12)
+            {
+                Console.WriteLine("it is morning");
+            }
+            else if (hour >= 12 && hour < 18)
+            {
+                Console.WriteLine("it is afternoon");
+            }
 
-            //else
-            //{
-            //    Console.WriteLine("night");
-            //}
+            else
+            {
+                Console.WriteLine("night");
+            }
 
             //if else w prostrzej formie.-----------------------------------------------
             //string poraDnia = (hour > 0 && hour < 12) ? "rano" : "popołudnie albo noc";
@@ -133,7 +133,7 @@ namespace control_flow
             //var password = new string(hasloarray);
             //    Console.WriteLine(password);
 
-            gffdg
+
 
 
 

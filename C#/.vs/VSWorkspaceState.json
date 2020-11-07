@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\control_flow",
-    "\\Strings"
+    "\\control_flow"
   ],
-  "SelectedNode": "\\control_flow\\Program.cs",
+  "SelectedNode": "\\control_flow\\petle.csproj",
   "PreviewInSolutionExplorer": false
 }
