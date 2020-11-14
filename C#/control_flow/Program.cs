@@ -9,43 +9,43 @@ namespace control_flow
 
 
             // switch case break------------------------------------------------- 
-            //var season = Season.Jesien;
+            var season = Season.Jesien;
 
-            //switch (season)
-            //{
-            //    case Season.Wiosna:
-            //        Console.WriteLine("Jest wiosna hura!");
-            //        break;
-            //    case Season.lato:
-            //        Console.WriteLine("Jest lato!");
-            //        break;
-            //    case Season.Jesien:
-            //        Console.WriteLine("jest jesien");
-            //        break;
-            //    case Season.Zima:
-            //        Console.WriteLine("jest zima!! brbrbrb" );
-            //        break;
-            //    default:
-            //        Console.WriteLine("nie ma takiej pory roku");
-            //        break;
-            //}
+            switch (season)
+            {
+                case Season.Wiosna:
+                    Console.WriteLine("Jest wiosna hura!");
+                    break;
+                case Season.lato:
+                    Console.WriteLine("Jest lato!");
+                    break;
+                case Season.Jesien:
+                    Console.WriteLine("jest jesien");
+                    break;
+                case Season.Zima:
+                    Console.WriteLine("jest zima!! brbrbrb");
+                    break;
+                default:
+                    Console.WriteLine("nie ma takiej pory roku");
+                    break;
+            }
 
             //if else if -----------------------------------------------------
-            int hour = 15;
+            //int hour = 15;
 
-            if (hour > 0 && hour < 12)
-            {
-                Console.WriteLine("it is morning");
-            }
-            else if (hour >= 12 && hour < 18)
-            {
-                Console.WriteLine("it is afternoon");
-            }
+            //if (hour > 0 && hour < 12)
+            //{
+            //    Console.WriteLine("it is morning");
+            //}
+            //else if (hour >= 12 && hour < 18)
+            //{
+            //    Console.WriteLine("it is afternoon");
+            //}
 
-            else
-            {
-                Console.WriteLine("night");
-            }
+            //else
+            //{
+            //    Console.WriteLine("night");
+            //}
 
             //if else w prostrzej formie.-----------------------------------------------
             //string poraDnia = (hour > 0 && hour < 12) ? "rano" : "popołudnie albo noc";
