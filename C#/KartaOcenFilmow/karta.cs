@@ -8,9 +8,14 @@ namespace KartaOcenFilmow
 {
     class karta
     {
+
+        public karta()
+        {
+            oceny =new List<float>();
+        }
         //stan (zmienne - pola)
 
-        private List<float> oceny=new List<float>();
+        private List<float> oceny;
          
 
         //zachowania (metody)
