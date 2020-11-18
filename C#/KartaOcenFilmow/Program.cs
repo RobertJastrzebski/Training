@@ -7,9 +7,14 @@ namespace KartaOcenFilmow
         static void Main(string[] args)
         {
             karta karta= new karta();
-            
+            karta.DodajOcene(3);
+            karta.DodajOcene(6);
+            karta.DodajOcene(9);
 
+            KartaStatystyki statystyki = karta.ObliczStatystyki();
 
+            Console.WriteLine("strednia ocena" + " " + statystyki.sredniaOcena);
+             
             for (;;)
             {
                 Console.WriteLine("Podaj ocene z zakresu 1-10");

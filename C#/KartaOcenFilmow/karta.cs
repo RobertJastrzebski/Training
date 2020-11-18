@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
@@ -13,12 +14,33 @@ namespace KartaOcenFilmow
         {
             oceny =new List<float>();
         }
+
+        
+
         //stan (zmienne - pola)
 
         private List<float> oceny;
-         
+
 
         //zachowania (metody)
+
+        internal KartaStatystyki ObliczStatystyki()
+        {
+
+            KartaStatystyki stat = new KartaStatystyki();
+
+
+            float suma = 0;
+            
+            foreach (var ocena in oceny)
+            {
+                suma += ocena;
+            }
+
+            stat.sredniaOcena = suma / oceny.Count();
+            
+            return stat;
+        }
 
 
         /// <summary>
