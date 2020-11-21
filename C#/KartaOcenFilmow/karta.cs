@@ -5,9 +5,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
-namespace KartaOcenFilmow
+ namespace KartaOcenFilmow
 {
-    class karta
+    public class karta
     {
 
         public karta()

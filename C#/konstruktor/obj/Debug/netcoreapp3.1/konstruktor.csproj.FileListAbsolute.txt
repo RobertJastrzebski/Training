@@ -10,3 +10,4 @@ E:\2. Tester manualny\Gitgub Repository\C#\konstruktor\obj\Debug\netcoreapp3.1\k
 E:\2. Tester manualny\Gitgub Repository\C#\konstruktor\obj\Debug\netcoreapp3.1\konstruktor.dll
 E:\2. Tester manualny\Gitgub Repository\C#\konstruktor\obj\Debug\netcoreapp3.1\konstruktor.pdb
 E:\2. Tester manualny\Gitgub Repository\C#\konstruktor\obj\Debug\netcoreapp3.1\konstruktor.genruntimeconfig.cache
+E:\2. Tester manualny\Gitgub Repository\C#\konstruktor\obj\Debug\netcoreapp3.1\konstruktor.csprojAssemblyReference.cache

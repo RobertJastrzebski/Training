@@ -4,10 +4,10 @@ E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\bin\Debug\netcoreapp3.1\C
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
-E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+E:\2. Tester manualny\Gitgub Repository\C#\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
