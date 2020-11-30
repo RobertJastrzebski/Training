@@ -1,0 +1,13 @@
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.exe
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.deps.json
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.dll
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\bin\Debug\netcoreapp3.1\TestProject.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.dll
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\1.TestApp\TestProject\obj\Debug\netcoreapp3.1\TestProject.csprojAssemblyReference.cache
