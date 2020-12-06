@@ -23,7 +23,7 @@ namespace Kalkulator
                 case "/":
                     result = argFirstNumber / argSecondNumber;
                     break;
-                case "multipy":
+                case "multiply":
                 case "*":
                     result = argFirstNumber * argSecondNumber;
                     break;

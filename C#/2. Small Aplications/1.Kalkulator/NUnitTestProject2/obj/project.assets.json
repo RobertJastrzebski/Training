@@ -4645,9 +4645,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Nunit.Kalkulator.UnitTest.csproj",
-      "projectName": "Nunit.Kalkulator.UnitTest",
-      "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Nunit.Kalkulator.UnitTest.csproj",
+      "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Kalkulator.UnitTest.csproj",
+      "projectName": "Kalkulator.UnitTest",
+      "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Kalkulator.UnitTest.csproj",
       "packagesPath": "C:\\Users\\Robert.000\\.nuget\\packages\\",
       "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\obj\\",
       "projectStyle": "PackageReference",

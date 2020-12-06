@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rUoYHiB2j38XHYJlmFY/egDJPwEoNSP8huvFdJKwvM+TjRObharmeFTdtm+5gT4wBzJDYtfiSOWvi9Jrt0q2LQ==",
+  "dgSpecHash": "Kev9cL+BQQ+FWBiIi/tBZhJ02GUCtZA1NBCJBk7y1lSfiJpSb/ObNOUK611EVID5wZI1rHsnFJYEelOx3JAYRw==",
   "success": true,
-  "projectFilePath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Nunit.Kalkulator.UnitTest.csproj",
+  "projectFilePath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\NUnitTestProject2\\Kalkulator.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robert.000\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Robert.000\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

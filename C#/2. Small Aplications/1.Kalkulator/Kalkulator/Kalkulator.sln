@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalkulator", "Kalkulator.csproj", "{F3A5F31D-A090-458C-A420-D59F9A2E8F91}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nunit.Kalkulator.UnitTest", "..\NUnitTestProject2\Nunit.Kalkulator.UnitTest.csproj", "{82E12090-30FA-4530-B5C2-C4EA287D894A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kalkulator.UnitTest", "..\NUnitTestProject2\Kalkulator.UnitTest.csproj", "{82E12090-30FA-4530-B5C2-C4EA287D894A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
