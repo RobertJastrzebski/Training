@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\bin\Debug\fields.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\bin\Debug\fields.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\bin\Debug\fields.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\obj\Debug\fields.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\obj\Debug\fields.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\obj\Debug\fields.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\fields\fields\obj\Debug\fields.pdb

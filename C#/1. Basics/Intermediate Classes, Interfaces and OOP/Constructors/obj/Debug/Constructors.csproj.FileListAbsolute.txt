@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\bin\Debug\Constructors.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\bin\Debug\Constructors.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\bin\Debug\Constructors.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\obj\Debug\Constructors.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\obj\Debug\Constructors.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Intermediate Classes, Interfaces and OOP\Constructors\Constructors\obj\Debug\Constructors.pdb
