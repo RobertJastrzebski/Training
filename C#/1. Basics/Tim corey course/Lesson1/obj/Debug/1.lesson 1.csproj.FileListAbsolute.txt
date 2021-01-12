@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\bin\Debug\1.lesson 1.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\bin\Debug\1.lesson 1.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\bin\Debug\1.lesson 1.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\obj\Debug\1.lesson 1.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\obj\Debug\1.lesson 1.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\obj\Debug\1.lesson 1.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\1.lesson 1\obj\Debug\1.lesson 1.pdb
