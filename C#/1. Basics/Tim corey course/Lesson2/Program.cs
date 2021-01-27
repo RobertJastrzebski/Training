@@ -1,17 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson2
+namespace Section2
+
 {
     class Program
     {
+        
+        private static Dictionary<string, int> guestList = new Dictionary<string, int>();
+        private static int guestsAll = 0;
+        
+
         static void Main(string[] args)
         {
-
             //Arrays-----------------------------------------------------------------------------
             //string[] firstNames = new string[5];
 
@@ -113,19 +119,75 @@ namespace Lesson2
             //importantYears[2020] = "covid starts";
             //importantYears.Add(2021, "Joe Biden new president of USA");
 
-            
+
             //foreach (var year in importantYears)
             //{
             //    Console.WriteLine($"{year.Key} , {year.Value}" );
             //}
-            //Methods---------------------------------------------------------------------------------------------
-            
-
-
-
+            //Guest book ---------------------------------------------------------------------------------------------
+        
+        
+        
+        Welcome();
+        CalculateGuests();
+        ListGuestList();
 
 
 
         }
+
+        
+        
+        
+        
+        private static void Welcome()
+        {
+            string wantQuit;
+            do
+            {
+                
+                Console.WriteLine("Hello welcome to guest book. ");
+                string guestName = GetGuestInfo("What is Your name");
+                string guestNumbersString = GetGuestInfo("How many guest you have in your party ??");
+                bool isValid = int.TryParse(guestNumbersString, out int guestNumber);
+                guestList.Add(guestName, guestNumber);
+
+                CalculateGuests();
+                Console.WriteLine("Do you want to continue ?? Y/N");
+                
+                wantQuit = Console.ReadLine().ToUpper();
+            } while (wantQuit=="Y");
+        }
+
+        
+
+        private static string GetGuestInfo(string message)
+        {
+            Console.WriteLine(message);
+            var output = Console.ReadLine();
+            return output;
+        }
+
+        private static  void CalculateGuests()
+        {
+            foreach (var guest in guestList)
+            {
+                guestsAll += guest.Value;
+                
+            }
+            Console.WriteLine($"all guests: {guestsAll}");
+            
+        }
+
+
+        private static void ListGuestList()
+        {
+            foreach (var guest in guestList)
+            {
+                Console.WriteLine($"gość: {guest.Key} liczba gości: {guest.Value}");
+            }
+        }
+
     }
+    
 }

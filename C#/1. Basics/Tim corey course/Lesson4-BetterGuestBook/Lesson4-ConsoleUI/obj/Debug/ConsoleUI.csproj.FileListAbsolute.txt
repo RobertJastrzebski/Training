@@ -1,0 +1,10 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\bin\Debug\Lesson4-ConsoleUI.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\bin\Debug\Lesson4-ConsoleUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\bin\Debug\Lesson4-ConsoleUI.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\bin\Debug\GuestBookLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\bin\Debug\GuestBookLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\obj\Debug\Lesson4-ConsoleUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\Lesson4-ConsoleUI\obj\Debug\Lesson4-ConsoleUI.pdb

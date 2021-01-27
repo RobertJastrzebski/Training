@@ -1,0 +1,6 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\bin\Debug\GuestBookLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\bin\Debug\GuestBookLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\obj\Debug\GuestBookLibrary.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\obj\Debug\GuestBookLibrary.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\obj\Debug\GuestBookLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BetterGuestBook\GuestBookLibrary\obj\Debug\GuestBookLibrary.pdb

@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\bin\Debug\Lesson3-Breakpoints.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\bin\Debug\Lesson3-Breakpoints.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\bin\Debug\Lesson3-Breakpoints.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\obj\Debug\Lesson3-Breakpoints.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\obj\Debug\Lesson3-Breakpoints.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\obj\Debug\Lesson3-Breakpoints.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson3-Breakpoints\obj\Debug\Lesson3-Breakpoints.pdb

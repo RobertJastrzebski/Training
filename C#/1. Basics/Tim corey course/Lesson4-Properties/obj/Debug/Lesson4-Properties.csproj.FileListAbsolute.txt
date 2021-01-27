@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\bin\Debug\Lesson4-Properties.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\bin\Debug\Lesson4-Properties.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\bin\Debug\Lesson4-Properties.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\obj\Debug\Lesson4-Properties.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\obj\Debug\Lesson4-Properties.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\obj\Debug\Lesson4-Properties.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-Properties\obj\Debug\Lesson4-Properties.pdb

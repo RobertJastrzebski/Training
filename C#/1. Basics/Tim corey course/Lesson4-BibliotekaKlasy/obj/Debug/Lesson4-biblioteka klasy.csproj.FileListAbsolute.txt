@@ -1,0 +1,10 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\bin\Debug\Lesson4-ClassLibrary.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\bin\Debug\Lesson4-ClassLibrary.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\bin\Debug\Lesson4-ClassLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\bin\Debug\DemoLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\bin\Debug\DemoLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\obj\Debug\Lesson4-biblioteka klasy.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\obj\Debug\Lesson4-biblioteka klasy.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\obj\Debug\Lesson4-biblioteka klasy.csproj.CopyComplete
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\obj\Debug\Lesson4-ClassLibrary.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-BibliotekaKlasy\obj\Debug\Lesson4-ClassLibrary.pdb

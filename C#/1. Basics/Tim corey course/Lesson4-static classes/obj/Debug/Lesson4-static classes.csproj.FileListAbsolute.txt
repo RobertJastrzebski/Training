@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\bin\Debug\Lesson4-static classes.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\bin\Debug\Lesson4-static classes.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\bin\Debug\Lesson4-static classes.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\obj\Debug\Lesson4-static classes.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\obj\Debug\Lesson4-static classes.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\obj\Debug\Lesson4-static classes.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-static classes\obj\Debug\Lesson4-static classes.pdb

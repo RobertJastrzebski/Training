@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\bin\Debug\Lesson4-InstancjeKlasy.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\bin\Debug\Lesson4-InstancjeKlasy.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\bin\Debug\Lesson4-InstancjeKlasy.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\obj\Debug\Lesson4-InstancjeKlasy.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\obj\Debug\Lesson4-InstancjeKlasy.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\obj\Debug\Lesson4-InstancjeKlasy.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson4-InstancjeKlasy\obj\Debug\Lesson4-InstancjeKlasy.pdb
