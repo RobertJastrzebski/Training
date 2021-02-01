@@ -1,0 +1,120 @@
+﻿Gra w statki
+Dodatkowe pytania/ wymagania
+1.	Czy gracz który ma zatopione wszystkie statki dostaje ostatni strzał ?-TAK
+2.	Czy gracz który zatopił statek przeciwnika dostaje bonus w postaci dodatkowego strzału ?-Nie.
+3.	Czy będziemy zbierać statystyki o celnych trafieniach oraz pudłach lub iloma strzałami wygraliśmy. ? - Będziemy podawać info iloma strzałami gracz zdołał zatopić wszystkie statki przeciwnika. 
+4.	Tylko jeden statek na jednym polu. -TAK
+5.	Czy pozwalamy strzelać graczowi w to samo miejsce. - Tak
+6.	Czy pokazujemy wszystkie pola z numeracją -TAK.
+7.	Czy przechowujemy liczbę wygranych oraz przegranych historycznych rozgrywek. -NIE.
+8.	Czy komputer będzie graczem ? Może w przyszłości.
+9.	Czy będzie większa liczba graczy ? Może w przyszłości. 
+ 
+ 
+ 
+Podstawowe wymagania Gry w statki :
+Zbuduj mała aplikacje dla 2 graczy podobna to statków.
+W grze będą 25 pola.(A1-E5).
+Każdy gracz umieści po 5 statków zajmujących jedno pole.
+Następnie gracze będą oddawać strzały w statki przeciwnika
+Pierwszy gracz który zatopie 5 statków przeciwnika wygrywa.  
+ 
+ 
+ 
+Schemat gry w statki: 
+Dwóch graczy otwiera konsole.
+Jak ma na imię pierwszy gracz ?
+Jak ma na imię drugi gracz?
+Zadaj pytanie graczowi 1 gdzie chce rozlokować statki
+Zadaj pytanie graczowi 2 gdzie chce rozlokować statki
+Zapytaj gracza 1 aby oddał strzał
+Określ czy trafił lub chybił.
+Określ czy gracz jeden wygrywa bitwę i wygrywa grę. 
+Zapytaj gracza 2 aby oddał strzał
+Określ czy trafił lub chybił.
+Określ czy gracz jeden wygrywa bitwę i wygrywa grę. 
+Powtarzamy cykl dopóki któryś gracz wygra bitwę. 
+Określ który gracz wygrał bitwę.
+Wyświetl wynik na konsoli 
+Wyjdź z aplikacji.
+ 
+ 
+ 
+ 
+Finalne  wymagania:
+1.	Gra dla 2 graczy 
+2.	Pole bitwy ma 25 pól. (A1-E5)
+3.	Każdy gracz ma 5 statków.
+4.	Każdy statek zajmuje jedno pole.
+5.	Gracze strzelają na przemian.
+6.	Pierwszy gracz który zatopi 5 statków przeciwnika wygrywa.
+7.	Jedna konsola dla 2 graczy. 
+8.	Pokaż mapę pola walki z trafieniami i pudłami. 
+9.	Nie kończ rundy po zatopienia 5 statków przeciwnika.
+10.	Nie pozwól graczowi aby strzelił 2 razy w to samo miejsce.  
+ 
+ 
+Projekt Interfejsu użytkownika. 
+ 
+Powitanie Graczy w Gra w statki
+Zapytaj gracza  1 jak ma na imię.
+Poproś gracza o rozlokowanie 5 statków na planszy 
+Sprawdź czy miejsce statku jest prawidłowe.
+Przechowaj lokalizacje statków. 
+Wyczyść ekran.
+Zapytaj gracza 2 jak ma na imię. 
+Poproś gracza 2 o rozlokowanie 5 statków na planszy.
+Sprawdź czy miejsce statków jest prawidłowe.
+Przechowaj lokalizacje statków. 
+Wyczyść ekran.
+Narysuj pole walki z widocznymi statkami gracza X  (oraz trafieniami oraz pudłami)
+Zapytaj gracza 1 aby oddał strzał z podaniem współrzędnych.
+Sprawdź strzał oraz czy nastąpiło trafienie czy pudło.
+Przechowaj strzał na polu walki.
+Sprawdź czy gracz X wygrał bitwę.
+Wyczyść Ekran
+Wyświetl wynik ( Gracz 1 :  Pozostało X statków
+Gracz 2 :  Pozostało X statków)
+Powtórz dla gracza X. 
+Pętla aż któryś z graczy wygra grę. 
+Wyświetl finalny wynik z Podaniem Imienia wygranego oraz informacja iloma strzałami wygrał bitwę.
+Poczekaj na potwierdzenie. 
+Wyjdź z Gry 
+ 
+ 
+ 
+ 
+ 
+Pole Walki
+A1	A2	A3	A4	A5
+B1	B2	B3	B4	B5
+C1	C2	C3	C4	C5
+D1	D2	D3	D4	D5
+E1	E2	E3	E4	E5
+ 
+Logika Aplikacji
+ 
+Wyczyść ekran
+Metoda: Zapytaj o imię.
+Metoda: Poproś o ustawienie statków.
+Metoda: Sprawdzenie czy miejsce statku jest prawidłowe. 
+Przechowanie lokalizacji statków - lista
+Przechowanie lokalizacji strzałów - lista
+Metoda: Rysowanie Pola walki dla każdego gracza. 
+Metoda: Narysuj pole walki w konsoli. 
+Metoda:  oddaj strzał 
+Metoda: Sprawdzenie czy strzał jest prawidłowy i zwróć czy nastąpiło trafienie czy pudło. 
+Metoda: Wyświetl wynik
+Metoda: Wyświetl wygranego gracza i iloma strzałami wygrał. 
+Metoda: Wyjście z Gry. 
+ 
+Projekt Dane aplikacji. 
+GraczInfo
+Imię gracza. - string
+Lokalizacja 5 statków - lista<miejsceNaSiatce>
+Lokalizacja strzałów gracza. - lista<miejsceNaSiatce>
+ 
+miejsceNaSiatce
+MiejsceLitera -string.
+MiejsceCyfra- int
+Status- enum.
