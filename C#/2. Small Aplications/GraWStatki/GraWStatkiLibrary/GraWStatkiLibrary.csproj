@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Documentation\TextFile1.txt" />
+    <Content Include="Documentation\Dokumentacja.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
