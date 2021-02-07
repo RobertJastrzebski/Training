@@ -13,6 +13,6 @@ namespace GraWStatkiLibrary.Modele
 
 
         public StatusPola Status { get; set; } = StatusPola.puste; 
-
+        
     }
 }

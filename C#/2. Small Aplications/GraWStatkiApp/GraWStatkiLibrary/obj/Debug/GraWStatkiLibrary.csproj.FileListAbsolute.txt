@@ -1,0 +1,6 @@
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\bin\Debug\GraWStatkiLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\bin\Debug\GraWStatkiLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\obj\Debug\GraWStatkiLibrary.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\obj\Debug\GraWStatkiLibrary.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\obj\Debug\GraWStatkiLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatkiLibrary\obj\Debug\GraWStatkiLibrary.pdb

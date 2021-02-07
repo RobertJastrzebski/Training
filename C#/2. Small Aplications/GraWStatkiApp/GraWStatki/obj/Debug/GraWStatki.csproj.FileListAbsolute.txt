@@ -1,0 +1,17 @@
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\bin\Debug\GraWStatki.exe
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\bin\Debug\GraWStatki.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\obj\Debug\GraWStatki.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\obj\Debug\GraWStatki.exe
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatki\GraWStatki\obj\Debug\GraWStatki.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\bin\Debug\GraWStatki.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\bin\Debug\GraWStatki.exe
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\bin\Debug\GraWStatki.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\obj\Debug\GraWStatki.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\obj\Debug\GraWStatki.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\obj\Debug\GraWStatki.exe
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\obj\Debug\GraWStatki.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\bin\Debug\GraWStatkiLibrary.dll
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\bin\Debug\GraWStatkiLibrary.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\2. Small Aplications\GraWStatkiApp\GraWStatki\obj\Debug\GraWStatki.csproj.CopyComplete
