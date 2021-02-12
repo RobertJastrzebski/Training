@@ -58,5 +58,35 @@ namespace GraWStatkiLibrary
         {
             throw new NotImplementedException();
         }
+
+        public static bool AktualnyGraczAktywny(GraczInfo przeciwnik)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static int  LiczbaStrzałów(GraczInfo wygrany)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static (string, int) RozdzielStrzalNaWierszIKolumny(string strzał)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool ZweryfikujStrzał(GraczInfo aktywnyGracz, string wiersz, int kolumna)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool WynikStrzału(GraczInfo przeciwnik, string wiersz, int kolumna)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void ZapiszWynikStrzalu(GraczInfo aktywnyGracz, string wiersz, int kolumna, bool jestTrafiony)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
