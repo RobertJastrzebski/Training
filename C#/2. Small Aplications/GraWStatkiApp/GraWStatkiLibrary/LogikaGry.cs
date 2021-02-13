@@ -56,37 +56,155 @@ namespace GraWStatkiLibrary
 
         public static bool PrzechowajMiejsceStatku(GraczInfo model, string lokalizacja)
         {
-            throw new NotImplementedException();
+
+            bool output = false;
+            (string wiersz, int kolumna) = RozdzielStrzalNaWierszIKolumny(lokalizacja);
+
+            bool prawidlowaPozycja = SprawdzPozycjeNaSiatce(model, wiersz, kolumna);
+            bool czyPoleWolne = SprawdzPozycjeStatku(model, wiersz, kolumna);
+
+            if (prawidlowaPozycja && czyPoleWolne)
+            {
+                model.LokalizacjaStatków.Add(new MiejsceNaSiatce
+                {
+                    MiejsceLitera = wiersz.ToUpper(),
+                    MiejsceCyfra = kolumna,
+                    Status = StatusPola.Statek
+                });
+                output = true;
+            }
+
+            return output;
         }
 
-        public static bool AktualnyGraczAktywny(GraczInfo przeciwnik)
+        private static bool SprawdzPozycjeNaSiatce(GraczInfo model, string wiersz, int kolumna)
         {
-            throw new NotImplementedException();
+            bool prawidłowaPozycja = false;
+            foreach (var strzal in model.LokalizacjaStrzałów)
+            {
+                if (strzal.MiejsceLitera == wiersz.ToUpper() && strzal.MiejsceCyfra == kolumna)
+                {
+                    prawidłowaPozycja = true;
+                }
+            }
+
+            return prawidłowaPozycja;
         }
 
-        public static int  LiczbaStrzałów(GraczInfo wygrany)
+        private static bool SprawdzPozycjeStatku(GraczInfo model, string wiersz, int kolumna)
         {
-            throw new NotImplementedException();
+            bool prawidłowaPozycja = true;
+            foreach (var statek in model.LokalizacjaStatków)
+            {
+                if (statek.MiejsceLitera==wiersz.ToUpper() && statek.MiejsceCyfra == kolumna)
+                {
+                    prawidłowaPozycja = false;
+                }
+            }
+
+            return prawidłowaPozycja;
         }
 
-        public static (string, int) RozdzielStrzalNaWierszIKolumny(string strzał)
+        public static bool AktualnyGraczAktywny(GraczInfo gracz)
         {
-            throw new NotImplementedException();
+            bool jestAktywny = false;
+            foreach (var statek in gracz.LokalizacjaStatków)
+            {
+                if (statek.Status !=StatusPola.Zatopiony)
+                {
+                    jestAktywny = true;
+                }
+            }
+
+            return jestAktywny;
         }
 
-        public static bool ZweryfikujStrzał(GraczInfo aktywnyGracz, string wiersz, int kolumna)
+        public static int  LiczbaStrzałów(GraczInfo gracz)
         {
-            throw new NotImplementedException();
+            int liczbaStrzałów = 0;
+            foreach (var strzal in gracz.LokalizacjaStrzałów)
+            {
+                if (strzal.Status != StatusPola.puste)
+                {
+                    liczbaStrzałów += 1;
+                }
+            }
+
+            return liczbaStrzałów;
         }
+
+        public static (string wiersz, int kolumna) RozdzielStrzalNaWierszIKolumny(string strzał)
+        {
+            string wiersz = "";
+            int kolumna = 0;
+
+            if (strzał.Length != 2)
+            {
+                throw new ArgumentException("to jest nieprawidłowy strzał","shot");
+            }
+            
+            char[] strzałArray = strzał.ToArray();
+            wiersz = strzałArray[0].ToString();
+            kolumna = int.Parse(strzałArray[1].ToString());
+
+            return (wiersz, kolumna);
+
+
+        }
+
+
+        public static bool ZweryfikujStrzał(GraczInfo gracz, string wiersz, int kolumna)
+        {
+            bool prawidłowyStrzał = false;
+            foreach (var strzał in gracz.LokalizacjaStrzałów)
+            {
+                if (strzał.MiejsceLitera == wiersz.ToUpper() && strzał.MiejsceCyfra == kolumna)
+                {
+                    if (strzał.Status== StatusPola.puste)
+                    {
+                        prawidłowyStrzał = true;
+                        
+                    } 
+                }
+            }
+
+            return prawidłowyStrzał;
+        }
+
 
         public static bool WynikStrzału(GraczInfo przeciwnik, string wiersz, int kolumna)
         {
-            throw new NotImplementedException();
+            bool czyCelnyStrzał = false;
+            foreach (var statek in przeciwnik.LokalizacjaStatków)
+            {
+                if (statek.MiejsceLitera == wiersz.ToUpper() && statek.MiejsceCyfra == kolumna)
+                {
+                    czyCelnyStrzał = true;
+                }
+            }
+
+            return czyCelnyStrzał;
         }
 
-        public static void ZapiszWynikStrzalu(GraczInfo aktywnyGracz, string wiersz, int kolumna, bool jestTrafiony)
+        public static void ZapiszWynikStrzalu(GraczInfo gracz, string wiersz, int kolumna, bool jestTrafiony)
         {
-            throw new NotImplementedException();
+            
+            foreach (var strzał in gracz.LokalizacjaStrzałów)
+            {
+                if (strzał.MiejsceLitera == wiersz.ToUpper() && strzał.MiejsceCyfra == kolumna)
+                {
+                    if (jestTrafiony)
+                    {
+                        strzał.Status = StatusPola.Trafiony;
+                    }
+                    else
+                    {
+                        strzał.Status = StatusPola.Pudło;
+                    }
+                }
+            }
+
+            
         }
     }
 }

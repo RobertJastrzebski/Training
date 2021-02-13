@@ -23,7 +23,7 @@ namespace GraWStatki
                 
                 ZapiszStrzałGracza(aktualnyGracz, przeciwnik);
 
-                bool CzyGramyDalej = LogikaGry.AktualnyGraczAktywny(przeciwnik);
+                bool CzyGramyDalej = LogikaGry.AktualnyGraczAktywny(aktualnyGracz);
 
                 if (CzyGramyDalej == true)
                 {
@@ -85,10 +85,7 @@ namespace GraWStatki
 
             //Zapisz Strzały
             LogikaGry.ZapiszWynikStrzalu(aktywnyGracz, wiersz, kolumna, jestTrafiony);
-
-
-
-
+            
         }
 
         private static string GraczStrzela()
@@ -151,7 +148,7 @@ namespace GraWStatki
             //Zapytaj gracza  1 jak ma na imię.
             output.ImieGracza = ZapytanieOImionaGraczy();
 
-            //Pokazanie Planszy
+            //Pokazanie Plansze
             LogikaGry.ZainicjujSiatke(output);
 
             //Poproś gracza o rozlokowanie 5 statków na planszy
