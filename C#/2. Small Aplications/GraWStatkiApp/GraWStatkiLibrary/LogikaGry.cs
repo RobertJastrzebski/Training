@@ -144,7 +144,7 @@ namespace GraWStatkiLibrary
             }
             
             char[] strzałArray = strzał.ToArray();
-            wiersz = strzałArray[0].ToString();
+            wiersz = strzałArray[0].ToString().ToUpper();
             kolumna = int.Parse(strzałArray[1].ToString());
 
             return (wiersz, kolumna);
@@ -180,6 +180,7 @@ namespace GraWStatkiLibrary
                 if (statek.MiejsceLitera == wiersz.ToUpper() && statek.MiejsceCyfra == kolumna)
                 {
                     czyCelnyStrzał = true;
+                    statek.Status = StatusPola.Zatopiony;
                 }
             }
 

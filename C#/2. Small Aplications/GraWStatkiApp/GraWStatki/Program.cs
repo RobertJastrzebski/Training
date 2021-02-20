@@ -23,7 +23,7 @@ namespace GraWStatki
                 
                 ZapiszStrzałGracza(aktualnyGracz, przeciwnik);
 
-                bool CzyGramyDalej = LogikaGry.AktualnyGraczAktywny(aktualnyGracz);
+                bool CzyGramyDalej = LogikaGry.AktualnyGraczAktywny(przeciwnik);
 
                 if (CzyGramyDalej == true)
                 {
@@ -41,7 +41,7 @@ namespace GraWStatki
             } while (wygrany == null);
 
             UstalWygranego(wygrany);
-
+            Console.ReadLine();
 
         }
 
@@ -66,9 +66,18 @@ namespace GraWStatki
 
             do
             {
-                string strzał = GraczStrzela();
-                ( wiersz,  kolumna) = LogikaGry.RozdzielStrzalNaWierszIKolumny(strzał);
-                celnyStrzał = LogikaGry.ZweryfikujStrzał(aktywnyGracz, wiersz, kolumna);
+                string strzał = GraczStrzela(aktywnyGracz);
+                try
+                {
+                    (wiersz, kolumna) = LogikaGry.RozdzielStrzalNaWierszIKolumny(strzał);
+                    celnyStrzał = LogikaGry.ZweryfikujStrzał(aktywnyGracz, wiersz, kolumna);
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                    celnyStrzał = false;
+                }
 
                 if (celnyStrzał == false)
                 {
@@ -85,12 +94,29 @@ namespace GraWStatki
 
             //Zapisz Strzały
             LogikaGry.ZapiszWynikStrzalu(aktywnyGracz, wiersz, kolumna, jestTrafiony);
+
+            //wyswietl wynik strzału.
+            WyswietlRezultatStrzału(wiersz, kolumna, jestTrafiony);
             
         }
 
-        private static string GraczStrzela()
+        private static void WyswietlRezultatStrzału(string wiersz, int kolumna, bool jestTrafiony)
         {
-            Console.Write("Prosze podaj strzał : ");
+            if (jestTrafiony)
+            {
+                Console.WriteLine($"{wiersz} {kolumna} jest trafiony ");
+            }
+            else
+            {
+                Console.WriteLine($"{wiersz} {kolumna} pudło ! ");
+            }
+
+            Console.WriteLine();
+        }
+
+        private static string GraczStrzela(GraczInfo Gracz)
+        {
+            Console.Write($"\n {Gracz.ImieGracza} prosze podaj strzał : ");
             string output = Console.ReadLine();
             return output;
         }
@@ -112,23 +138,25 @@ namespace GraWStatki
 
                 if (strzał.Status == StatusPola.puste)
                 {
-                    Console.Write($"{strzał.MiejsceLitera}{strzał.MiejsceCyfra}");
+                    Console.Write($"{strzał.MiejsceLitera}{strzał.MiejsceCyfra}   ");
                 }
                 else if (strzał.Status== StatusPola.Trafiony)
                 {
-                    Console.Write(" X ");
+                    Console.Write(" X   ");
                 }
                 else if (strzał.Status==StatusPola.Pudło )
                 {
-                    Console.Write(" O ");
+                    Console.Write(" O   ");
                 }
                 else
                 {
-                    Console.Write(" ? ");
+                    Console.Write(" ?   ");
                 }
 
             }
 
+            Console.WriteLine();
+            Console.WriteLine();
             
         }
 
@@ -173,10 +201,20 @@ namespace GraWStatki
         {
             do
             {
-                Console.WriteLine($"Gdzie chcesz umiescic statek numer {model.LokalizacjaStatków.Count+1}: ?");
+                Console.WriteLine($"{model.ImieGracza.ToUpper()} gdzie chcesz umiescic statek numer {model.LokalizacjaStatków.Count+1}: ?");
                 string lokalizacja = Console.ReadLine();
 
-                bool isValidLocation = LogikaGry.PrzechowajMiejsceStatku(model, lokalizacja);
+                bool isValidLocation = false;
+                try
+                {
+                   isValidLocation = LogikaGry.PrzechowajMiejsceStatku(model, lokalizacja);
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                    
+                }
                 if (isValidLocation==false)
                 {
                     Console.WriteLine("To nie jest prawidłowa lokalizacja. Spróbuj jeszcze raz");
