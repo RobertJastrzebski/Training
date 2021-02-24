@@ -1,0 +1,14 @@
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\TestNinja.dll.config
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\TestNinja.dll
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\TestNinja.pdb
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\EntityFramework.dll
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\Newtonsoft.Json.dll
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\EntityFramework.xml
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\bin\Debug\Newtonsoft.Json.xml
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\obj\Debug\TestNinja.csprojAssemblyReference.cache
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\obj\Debug\TestNinja.dll
+E:\3. C#\0. Mosh Hamedani Udemy\6. Unit Testing for C# Developers\00.Unit-Testing-Course-master\TestNinja\obj\Debug\TestNinja.pdb

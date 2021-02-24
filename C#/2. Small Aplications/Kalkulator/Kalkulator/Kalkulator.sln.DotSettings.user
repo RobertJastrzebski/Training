@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=33e135cf_002D80c3_002D43a8_002D9d82_002D8cc765a69365/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::82E12090-30FA-4530-B5C2-C4EA287D894A::.NETCoreApp,Version=v3.1::Kalkulator.UnitTest.InputConverterUnitTests.ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=96a4fea7_002Dcfd4_002D4331_002Db4fa_002D43644e55be8f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::82E12090-30FA-4530-B5C2-C4EA287D894A::.NETCoreApp,Version=v3.1::Kalkulator.UnitTest.InputConverterUnitTests.ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c371a80d_002D8dad_002D471d_002D912d_002D4fc8caab38ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::82E12090-30FA-4530-B5C2-C4EA287D894A::.NETCoreApp,Version=v3.1::Kalkulator.UnitTest.InputConverterUnitTests.ConvertInputToNumeric_FailsConvertsStringIntoDouble_ReturnExeption&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
