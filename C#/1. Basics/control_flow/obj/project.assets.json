@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj",
+      "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\control_flow\\petle.csproj",
       "projectName": "petle",
-      "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\petle.csproj",
+      "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\control_flow\\petle.csproj",
       "packagesPath": "C:\\Users\\Robert.000\\.nuget\\packages\\",
-      "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\control_flow\\obj\\",
+      "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\control_flow\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

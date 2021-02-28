@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\bin\Debug\ConsoleUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\bin\Debug\ConsoleUI.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\obj\Debug\ConsoleUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson5-Interfaces\ConsoleUI\obj\Debug\ConsoleUI.pdb

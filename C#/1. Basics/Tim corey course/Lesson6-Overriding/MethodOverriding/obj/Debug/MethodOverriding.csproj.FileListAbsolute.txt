@@ -1,0 +1,7 @@
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\bin\Debug\MethodOverriding.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\bin\Debug\MethodOverriding.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\bin\Debug\MethodOverriding.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\obj\Debug\MethodOverriding.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\obj\Debug\MethodOverriding.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\obj\Debug\MethodOverriding.exe
+E:\2. Tester manualny\Gitgub Repository\C#\1. Basics\Tim corey course\Lesson6-Overriding\MethodOverriding\obj\Debug\MethodOverriding.pdb

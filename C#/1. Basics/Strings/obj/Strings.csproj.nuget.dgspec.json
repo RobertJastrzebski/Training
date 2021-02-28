@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\Strings\\Strings.csproj": {}
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\Strings\\Strings.csproj": {}
   },
   "projects": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\Strings\\Strings.csproj": {
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\Strings\\Strings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\Strings\\Strings.csproj",
+        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\Strings\\Strings.csproj",
         "projectName": "Strings",
-        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\Strings\\Strings.csproj",
+        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\Strings\\Strings.csproj",
         "packagesPath": "C:\\Users\\Robert.000\\.nuget\\packages\\",
-        "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\Strings\\obj\\",
+        "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\1. Basics\\Strings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
