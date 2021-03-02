@@ -11,3 +11,17 @@ E:\2. Tester manualny\Gitgub Repository\C#\4.Selenium\1.Training\lesson1-Seleniu
 E:\2. Tester manualny\Gitgub Repository\C#\4.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.exe
 E:\2. Tester manualny\Gitgub Repository\C#\4.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.pdb
 E:\2. Tester manualny\Gitgub Repository\C#\4.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\chromedriver.exe
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\chromedriver.exe
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\SeleniumUI.exe.config
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\SeleniumUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\SeleniumUI.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\WebDriver.dll
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\WebDriver.Support.dll
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\WebDriver.xml
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\WebDriver.Support.xml
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.csprojAssemblyReference.cache
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.csproj.CoreCompileInputs.cache
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.csproj.CopyComplete
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.exe
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\obj\Debug\SeleniumUI.pdb
+E:\2. Tester manualny\Gitgub Repository\C#\3.Selenium\1.Training\lesson1-Selenium_Config\SeleniumUI\bin\Debug\SeleniumExtras.WaitHelpers.dll
