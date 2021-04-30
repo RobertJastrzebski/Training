@@ -87,8 +87,8 @@ namespace DragAndDropUnitTests
             Assert.IsTrue(_driver.FindElement(By.XPath("//*[@id='resizable' and @style] ")).Displayed);
 
         }
-
-
+        
+        
 
 
     }

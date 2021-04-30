@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\Kalkulator\\Kalkulator.csproj": {}
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\Kalkulator\\Kalkulator\\Kalkulator.csproj": {}
   },
   "projects": {
-    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\Kalkulator\\Kalkulator.csproj": {
+    "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\Kalkulator\\Kalkulator\\Kalkulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\Kalkulator\\Kalkulator.csproj",
+        "projectUniqueName": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\Kalkulator\\Kalkulator\\Kalkulator.csproj",
         "projectName": "Kalkulator",
-        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\Kalkulator\\Kalkulator.csproj",
+        "projectPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\Kalkulator\\Kalkulator\\Kalkulator.csproj",
         "packagesPath": "C:\\Users\\Robert.000\\.nuget\\packages\\",
-        "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\1.Kalkulator\\Kalkulator\\obj\\",
+        "outputPath": "E:\\2. Tester manualny\\Gitgub Repository\\C#\\2. Small Aplications\\Kalkulator\\Kalkulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

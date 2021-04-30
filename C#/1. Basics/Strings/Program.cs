@@ -73,8 +73,10 @@ namespace Strings
 
 
 
-
-
+            string rob = "243245";
+            var nowy= int.Parse(rob);
+            Console.WriteLine(rob);
+            
 
         }
     }

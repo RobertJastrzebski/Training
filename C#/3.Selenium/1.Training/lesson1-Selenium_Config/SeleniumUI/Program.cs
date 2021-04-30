@@ -9,7 +9,7 @@ using OpenQA.Selenium.Support.UI;
 using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
 
 
-namespace SeleniumUI
+namespace SeleniumBasics
 {
     class Program
     {
@@ -30,7 +30,7 @@ namespace SeleniumUI
             
 
             driver.Navigate().GoToUrl(baseUrl);
-            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));            
+             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));            
             
             var login = wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//div[@id='navbar']//a[@href='/sign_in']")));
             login.Click();
@@ -113,7 +113,7 @@ namespace SeleniumUI
             Console.WriteLine($"value of class is : " + field.GetAttribute("class"));
 
 
-            //
+            
 
 
             
