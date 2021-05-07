@@ -130,7 +130,7 @@ else:
 #     if score>najwyzsza_ocena:
 #         najwyzsza_ocena=score
 # print(f"najwyzsza ocena to {najwyzsza_ocena}")
-
+# ----------------------------------------------------------
 
 
 
