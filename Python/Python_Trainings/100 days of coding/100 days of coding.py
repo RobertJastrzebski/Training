@@ -55,5 +55,84 @@ else:
 # print(random_int)
 
 # -----------listy------------------------------------
-owoce=["jablko","banan","arbuz"]
-print(owoce[0])
+# owoce=["jablko","banan","arbuz"]
+# print(owoce[2])
+
+# ----------------kto płaci za rachunek ruletka:)----------------------------
+# lista= "Angela, Ben, Jenny, Michael, Chloe"
+# lista_imion= lista.split(", ")
+# print(lista_imion)
+# dlugosc_listy =len(lista_imion)
+# losowa_liczba = random.randint(0,dlugosc_listy-1)
+# print(f"dzis za rachunek placi {lista_imion[losowa_liczba]}")
+
+
+# Papier, kamień, nożyce
+# komputer_wybor= random.randint(0,2)
+# wybór = int(input("Co wybierasz 0 dla kamienia,1 dla papieru, 2 dla nozyczek \n"))
+# elementy=["kamien","papier","nozyczki"]
+#
+#
+# if komputer_wybor==0:
+#     print(f"komputer wybrał {elementy[0]}")
+# elif komputer_wybor==1:
+#     print(f"komputer wybrał {elementy[1]}")
+# else:
+#     print("Komputer wybrał nożyczki")
+#
+# if wybór==0:
+#     print("Gracz wybrał kamień")
+# elif wybór==1:
+#     print("Gracz wybrał papier")
+# else:
+#     print("Gracz wybrał nożyczki")
+#
+#
+#
+# if (wybór==komputer_wybor):
+#     print("Remis")
+# if (wybór>2 or wybór<0):
+#     print("Przegrtywasz wpisałes nieprawidłowy numer.")
+# elif(wybór==0 and komputer_wybor==1):
+#     print("Komputer wygrywa")
+# elif(wybór==0 and komputer_wybor==2):
+#     print("Wygrywasz")
+# elif (wybór == 1 and komputer_wybor == 0):
+#     print("Wygrywasz")
+# elif (wybór == 1 and komputer_wybor == 2):
+#     print("Komputer wygrywa")
+# elif (wybór == 2 and komputer_wybor == 0):
+#     print("Komputer wygrywa")
+# elif (wybór == 2 and komputer_wybor == 1):
+#     print("Wygrywasz")
+#
+#
+# ----------------petle----------------------------
+# owoce = [1,2,3]
+# for liczba in owoce:
+#     print(liczba)
+
+
+# ----------zadanie loops--------------------------
+# student_heights = [180, 124, 165, 173, 189, 169, 146]
+# ilosc_uczniów = len(student_heights)
+# print(ilosc_uczniów)
+# łączna_suma = 0
+# for student in student_heights:
+#     łączna_suma+=student
+# srednia = round(łączna_suma/ilosc_uczniów)
+# print(srednia)
+
+# ------------zadanie 2 loops-------------------------
+# student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+# najwyzsza_ocena=0
+# for score in student_scores:
+#     if score>najwyzsza_ocena:
+#         najwyzsza_ocena=score
+# print(f"najwyzsza ocena to {najwyzsza_ocena}")
+
+
+
+
+
+
