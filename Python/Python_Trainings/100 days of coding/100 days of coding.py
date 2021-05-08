@@ -130,9 +130,25 @@ else:
 #     if score>najwyzsza_ocena:
 #         najwyzsza_ocena=score
 # print(f"najwyzsza ocena to {najwyzsza_ocena}")
-# ----------------------------------------------------------
+# --------------------------adding even number------------------------
+# suma=0
+# for number in range(1,101):
+#     if number%2==0:
+#         suma+=number
+#
+# print(suma)
 
 
+# --------------FizzBuzz ---------------------
 
+#
+# for numer in range(1,101):
+#     if numer%3==0 and numer%5==0:
+#         print("FizzBuzz")
+#     elif numer%5==0:
+#         print("Buzz")
+#     elif numer % 3 == 0:
+#         print("Fizz")
 
+# -------------------------------------------------------
 
