@@ -170,4 +170,22 @@ else:
 # while  liczba <10:
 #     print(liczba)
 #     liczba+=1
-# ------------------------------------------------------------------------------------------
+# -----------------------Gra ---Wisielec--------------------------------------------
+lista_slow = ["robert","asia","matylda"]
+wybrane_slowo = random.choice(lista_slow)
+print(wybrane_slowo)
+dlugosc_slowa = len(wybrane_slowo)
+lista = []
+for _ in range(dlugosc_slowa):
+    lista.append("_")
+print(lista)
+
+wybrana_litera = input("zgadnij literke \n").lower()
+
+
+for pozycja in range(dlugosc_slowa):
+    litera=wybrane_slowo[pozycja]
+    if litera == wybrana_litera:
+        lista[pozycja]=litera
+
+print(lista)
