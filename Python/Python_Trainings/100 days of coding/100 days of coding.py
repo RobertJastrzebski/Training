@@ -150,5 +150,24 @@ else:
 #     elif numer % 3 == 0:
 #         print("Fizz")
 
-# -------------------------------------------------------
+# ------------------random.choice wybiera losowo a  random.shuffle miesza ----------------
 
+# s = ["robert","asia"]
+# random.shuffle(s)
+# wybor= random.choice(s)
+# print(wybor)
+# print(s)
+
+# ------------------------Functions -------------------------------------------------------
+#
+# def my_function():
+#     print("hello Robert")
+#
+# my_function()
+
+# -----------------------wile loop----------------------------------------------------------
+# liczba=1
+# while  liczba <10:
+#     print(liczba)
+#     liczba+=1
+# ------------------------------------------------------------------------------------------
