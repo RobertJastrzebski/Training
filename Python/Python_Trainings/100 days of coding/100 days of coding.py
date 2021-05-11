@@ -180,12 +180,10 @@ for _ in range(dlugosc_slowa):
     lista.append("_")
 print(lista)
 
-wybrana_litera = input("zgadnij literke \n").lower()
-
-
-for pozycja in range(dlugosc_slowa):
-    litera=wybrane_slowo[pozycja]
-    if litera == wybrana_litera:
-        lista[pozycja]=litera
-
-print(lista)
+while "_" in lista:
+    wybrana_litera = input("zgadnij literke \n").lower()
+    for pozycja in range(dlugosc_slowa):
+        litera = wybrane_slowo[pozycja]
+        if litera == wybrana_litera:
+            lista[pozycja] = litera
+    print(lista)
