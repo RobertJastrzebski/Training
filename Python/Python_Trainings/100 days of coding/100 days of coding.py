@@ -171,16 +171,16 @@ else:
 #     print(liczba)
 #     liczba+=1
 # -----------------------Gra ---Wisielec--------------------------------------------
-lista_slow = ["robert","asia","matylda"]
+lista_slow = ["robert","asia","matylda","hubert","seba","ewa"]
 wybrane_slowo = random.choice(lista_slow)
-print(f"wybrane słowo to {wybrane_slowo}")
+print("zgadnij imie z naszej rodziny :) masz 6 podejść. ")
 dlugosc_slowa = len(wybrane_slowo)
-zycia=7
 
-lista = []
+
+lista_liter = []
 for _ in range(dlugosc_slowa):
-    lista.append("_")
-print(lista)
+    lista_liter.append("_")
+print(f"{' '.join(lista_liter)}")
 
 etapy = ['''
   +---+
@@ -239,7 +239,7 @@ etapy = ['''
 =========
 ''']
 
-
+zycia=7
 koniec_gry = False
 while not koniec_gry:
     wybrana_litera = input("zgadnij literke: \n").lower()
@@ -247,18 +247,19 @@ while not koniec_gry:
     for pozycja in range(dlugosc_slowa):
         litera = wybrane_slowo[pozycja]
         if litera == wybrana_litera:
-            lista[pozycja] = wybrana_litera
+            lista_liter[pozycja] = wybrana_litera
 
-    print(f"{' '.join(lista)}")
+    print(f"{' '.join(lista_liter)}")
+
     if wybrana_litera not in wybrane_slowo:
         zycia-=1
-        print(f"pudlo! masz jeszcze {zycia} zyc")
+        print(f"pudlo! litery {wybrana_litera} nie ma w wyrazie masz jeszcze {zycia} zyc")
         print(f"{etapy[zycia]}")
     if zycia == 0:
         koniec_gry=True
         print("Przegrałes")
 
-    if "_" not in lista:
+    if "_" not in lista_liter:
         koniec_gry=True
         print("wygrales")
 
