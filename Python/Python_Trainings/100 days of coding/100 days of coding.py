@@ -173,17 +173,94 @@ else:
 # -----------------------Gra ---Wisielec--------------------------------------------
 lista_slow = ["robert","asia","matylda"]
 wybrane_slowo = random.choice(lista_slow)
-print(wybrane_slowo)
+print(f"wybrane słowo to {wybrane_slowo}")
 dlugosc_slowa = len(wybrane_slowo)
+zycia=7
+
 lista = []
 for _ in range(dlugosc_slowa):
     lista.append("_")
 print(lista)
 
-while "_" in lista:
-    wybrana_litera = input("zgadnij literke \n").lower()
+etapy = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+
+koniec_gry = False
+while not koniec_gry:
+    wybrana_litera = input("zgadnij literke: \n").lower()
+
     for pozycja in range(dlugosc_slowa):
         litera = wybrane_slowo[pozycja]
         if litera == wybrana_litera:
-            lista[pozycja] = litera
-    print(lista)
+            lista[pozycja] = wybrana_litera
+
+    print(f"{' '.join(lista)}")
+    if wybrana_litera not in wybrane_slowo:
+        zycia-=1
+        print(f"pudlo! masz jeszcze {zycia} zyc")
+        print(f"{etapy[zycia]}")
+    if zycia == 0:
+        koniec_gry=True
+        print("Przegrałes")
+
+    if "_" not in lista:
+        koniec_gry=True
+        print("wygrales")
+
+# print(etapy[zycia])
+
